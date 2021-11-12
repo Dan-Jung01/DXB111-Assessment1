@@ -1,0 +1,373 @@
+/*Font Imports, 
+notice they are always included 
+at the start of the CSS document*/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Reset CSS*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*setting font family of most text to Roboto, as imported above*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #25292C;
+}
+
+/*This is a comment
+You can make these quickly in Brackets by pressing 
+"CTRL" + "/" on Windows or "CMD" + "/" on Mac*/
+
+header p {
+    background-color: #1C1F21;
+    font-size: 2.6em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    color: #54647B;
+}
+
+
+
+/*--------------------
+Styling for navigation
+----------------------*/
+
+nav ul {
+    list-style-type: none;
+    justify-content: center;
+    padding: 15px 50px;
+    display: flex;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #54647B;
+    color: white;
+}
+
+.active {
+    background-color: #54647B;
+}
+
+/*-----------------------------------
+Styling for index.html main content
+------------------------------------*/
+main h2 {
+    text-align: center;
+    color: #A3A656;
+    font-size: 31px;
+    margin: 3%;
+}
+
+main p {
+    text-align: left;
+    padding: 4%;
+    color: #ACAFA7;
+}
+
+.index_language {
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+.p_bold {
+    color: #A3A656;
+    font-weight: bold;
+}
+
+.p_profile {
+    padding: 4% 1% 1% 4%;
+    margin-left: 11%;
+}
+
+.p_profile_char {
+    padding: 7% 1% 1% 4%;
+    margin-left: 11%;
+}
+
+.profile_content {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.index_skills {
+    text-align: center;
+    margin: 0px 20px -11px 20px;
+    color: #ACAFA7;
+}
+
+.skill_icons {
+    color: #ACAFA7;
+    font-size: 2em;
+    text-align: center;
+}
+
+.skill_icons i {
+    margin: 20px 35px 30px 35px;
+}
+
+.index_page_lan {
+    display: flex;
+    margin-top: 11px;
+    margin-left: 55px;
+}
+
+.index_circle_wrapper {
+    display: flex;
+    align-content: space-between;
+}
+
+.index_circle_wrapper div {
+    margin: 0px 10px;
+}
+
+.circle4 {
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 50%;
+    background-color: #ACAFA7;
+}
+
+.hobby_icons {
+    color: #ACAFA7;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.hobby_icons i {
+    margin: 20px 35px 0px 35px;
+}
+
+/*-----------------------------------
+Styling for work.html main content
+------------------------------------*/
+.work_page img {
+    display: block;
+    margin: auto;
+    max-width: 93%;
+    height: auto;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-radius: 10%
+}
+
+.work_page_fig div {
+    margin: 1em 0em 1em 1.5em;
+}
+
+.work_page_fig h3 {
+    font-size: 2.5em;
+    color: #8C545E;
+    margin: 15px 0px;
+}
+
+.work_page_fig h4 {
+    font-size: 1.6em;
+    margin: 15px 0px 15px 0px;
+    color: #A3A656;
+}
+
+.work_page_fig p {
+    padding: 5px 5px 5px 5px;
+    margin-right: 1em;
+    font-size: 1.1em;
+}
+
+
+.circle_wrapper {
+    display: flex;
+    align-content: space-between;
+}
+
+.circle_wrapper div {
+    margin: 10px 10px;
+}
+
+.circle1 {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.circle1:nth-child(1) {
+    background-color: aliceblue;
+
+}
+
+.circle1:nth-child(2) {
+    background-color: greenyellow;
+}
+
+.circle1:nth-child(3) {
+    background-color: darkseagreen;
+}
+
+.circle2 {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.circle2:nth-child(1) {
+    background-color: darkblue;
+
+}
+
+.circle2:nth-child(2) {
+    background-color: aliceblue;
+}
+
+.circle2:nth-child(3) {
+    background-color: skyblue;
+}
+
+.circle3 {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.circle3:nth-child(1) {
+    background-color: aliceblue;
+
+}
+
+.circle3:nth-child(2) {
+    background-color: lightyellow;
+}
+
+.circle3:nth-child(3) {
+    background-color: rosybrown;
+}
+
+.work_content_bottom {
+    margin-bottom: 30px;
+}
+
+
+
+/*-----------------------------------
+Styling for contact.html main content
+------------------------------------*/
+
+
+.contact_me_img {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(./images/contact_img.jpg);
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    opacity: 90%;
+}
+
+.contact_me_img h2 {
+    font-size: 3em;
+    color: black;
+    border: 6px solid;
+}
+
+figcaption {
+    margin-right: 3em;
+    font-size: 0.5em;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #ACAFA7;
+}
+
+.contact_more_detail {
+    border-top: 2px solid #424A4F;
+    border-bottom: 2px solid #424A4F;
+    margin: 20% 10% 10% 10%;
+}
+
+.contact_more_detail h3 {
+    margin: 10% 10% 10% 10%;
+    padding: 4%;
+    text-align: center;
+    color: #ACAFA7;
+    border: 3px solid;
+
+}
+
+.contact_more_detail h2 {
+    margin-top: 10%;
+}
+
+
+.contact_detail_info {
+    border-bottom: 2px solid #424A4F;
+    margin: 10% 10% 20% 10%;
+    padding-bottom: 10%;
+}
+
+
+.contact_detail_info h3 {
+    color: #A3A656;
+    padding-top: 2em;
+}
+
+
+
+/* adding the Archivo Black font we imported at the top of this doc*/
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #8C545E;
+    font-size: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #424A4F;
+    border-top: 2px solid #424A4F;
+}
+
+header p {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+/*--------------------
+Styling for footer
+----------------------*/
+
+footer {
+    background-color: #1C1F21;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 5% 0% 5% 5%;
+    justify-content: space-between;
+    color: #95714D;
+
+
+}
+
+footer ul {
+    display: flex;
+    align-content: flex-start;
+    list-style: none;
+
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+.copyright {
+    text-align: center;
+}
